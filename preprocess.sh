@@ -3,8 +3,8 @@
 # loop through subreddit-count file to trim/extract words from subreddits with at least N comments
 # Parse the words 
 # input is file of all comments in a month, and limit for min comments in a reddit and min word count
-	#$1 = the full month of comments
-	#$2 = the min comment count for a sub in that month
+	#$1 = the full month of comments (unzipped file)
+	#$2 = the min comment count for a subreddit in that month
 	#$3 = the min number of occurrences of a word
 
 #get count of comments in each sub
