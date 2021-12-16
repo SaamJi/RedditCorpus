@@ -18,12 +18,10 @@ do
 	if [ $count -lt  $2 ]
     	then
        		break
+
 	fi
 
-	cat $1 |jq 'select(.subreddit=='"$sub"') | .body' | tr '[:space:]' '[\n*]' | tr -d '[:punct:]'| tr [:upper:] [:lower:] | grep -v "^\s*$" | sort | uniq -c | sort -bnr | awk -v a="$3" 'int($1)>=a {print $0}' > word_count/$1_${sub}.txt 
-	
+cat $1 |jq 'select(.subreddit=='"$sub"') | .body' | tr '[:space:]' '[\n*]' | tr -d '[:punct:]'| tr [:upper:] [:lower:] | grep -v "^\s*$" | sort | uniq -c | sort -bnr | awk -v a="$3" 'int($1)>=a {print $0}' > word_count/$1_${sub}.txt 	
 		
 done < comment_count/count_$1.txt
 
-
-#sed -i 's/^ *//' 
