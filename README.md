@@ -14,4 +14,6 @@ This project is aiming to understand jargon and how it evolves on the internet. 
 3. Individual words are counted using `extract_word_count.sh`
 4. Once word counts are tallied, we can begin analyzing the data with `Word_Count_Analysis.ipynb`
 
+Work in Progress: Currently working on a single pipeline for the above ^
+
 
