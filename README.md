@@ -4,7 +4,7 @@ The way we speak and words we choose can be greatly affected by our social influ
 
 For example, words such as “lol”, “pwn”, or even “crypto” all started as niche acronyms, misspellings, or jargon, but have become widely adopted. How does this happen? And what statistical dynamics govern this process?
 
-This project is aiming to understand jargon and how it evolves on the internet. We're curious to see how new acronyms, jargon, lingo, or misspellings move from one community to another. To do this, we're building algorithms to detect jargon and compiling a corpus of <u>every single comment ever made on Reddit<\u> to test it out.
+This project is aiming to understand jargon and how it evolves on the internet. We're curious to see how new acronyms, jargon, lingo, or misspellings move from one community to another. To do this, we're building algorithms to detect jargon and compiling a corpus of ***every single comment ever made on Reddit*** to test it out.
 
 
 ## Nuts and Bolts
