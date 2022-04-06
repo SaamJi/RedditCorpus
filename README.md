@@ -1,6 +1,8 @@
 # How does language evolve on the internet?
-#### "Let's pwn some n00bs!"
-Have you ever checked out a reddit thread or facebook group and found you didn't understand a thing that was being said?
+
+The way we speak and words we choose can be greatly affected by our social influences. Technical communities develop their own niche vocabulary, while teenagers may adopt new words that seem entirely foreign to their parents. The goal of this project is to study how new words or jargon begin, and how do they spread across communities into the wider lexicon.
+
+For example, words such as “lol”, “pwn”, or even “crypto” all started as niche acronyms, misspellings, or jargon, but have become widely adopted. How does this happen? And what statistical dynamics govern this process?
 
 This project is aiming to understand jargon and how it evolves on the internet. We're curious to see how new acronyms, jargon, lingo, or misspellings move from one community to another. To do this, we're building algorithms to detect jargon and compiling a corpus of **every single comment ever made on Reddit** to test it out.
 
