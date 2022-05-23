@@ -14,7 +14,8 @@ This project is aiming to understand jargon and how it evolves on the internet. 
 2. Each month of comments in then parsed to extract only the raw comments (removing comment metadata)
    - Parsing done using `Split_corpus.ipynb`
 3. Individual words are counted using `extract_word_count.sh`
-4. Once word counts are tallied, we can begin analyzing the data with `Word_Count_Analysis.ipynb` or `Word_Count-TFIDF.ipynb`
+   - E.g. `sh exract_word_count.sh RC_2005-12` 
+5. Once word counts are tallied, we can begin analyzing the data with `Word_Count_Analysis.ipynb` or `Word_Count-TFIDF.ipynb`
 
 Work in Progress: Currently working on a single pipeline for the above ^
 
