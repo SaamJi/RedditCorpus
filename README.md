@@ -13,8 +13,10 @@ This project is aiming to understand jargon and how it evolves on the internet. 
    - files can be downloaded using `Download_All_Files.ipynb`
 2. Each month of comments in then parsed to extract only the raw comments (removing comment metadata)
    - Parsing done using `Split_corpus.ipynb`
+   - note to self: move file from SSD to project folder, unzip, then run split corpus
 3. Individual words are counted using `extract_word_count.sh`
    - E.g. `sh exract_word_count.sh RC_2005-12` 
+   - note to self: after getting wrod count, move files back to SSD
 5. Once word counts are tallied, we can begin analyzing the data with `Word_Count_Analysis.ipynb` or `Word_Count-TFIDF.ipynb`
 
 Work in Progress: Currently working on a single pipeline for the above ^
