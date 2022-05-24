@@ -23,6 +23,7 @@ Work in Progress: Currently working on a single pipeline for the above ^
 
 Next steps:
 - pull in December data from 2005 to 2018
+   - currently 2005-2014,16
 - top 20 words for top 20 subs, Spearman correlation across 2017/2018 (i.e., "how stable is our tf-idf++ measure?")
 - figures for selected words (maybe OED new additions?)
 - write-up
