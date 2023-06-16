@@ -11,4 +11,4 @@ do
 	echo $file_name
 mkdir -p word_count/$1
 cat $FILE  | tr '[:space:]' '[\n*]' | tr -d '[:punct:]'| tr [:upper:] [:lower:] | grep -v "^\s*$" | sort | uniq -c | sort -bnr > word_count/$1/${file_name} 
-done
+done  

@@ -19,14 +19,15 @@ This project is aiming to understand jargon and how it evolves on the internet. 
    - note to self: after getting wrod count, move files back to SSD
 5. Once word counts are tallied, we can begin analyzing the data with `Word_Count_Analysis.ipynb` or `Word_Count-TFIDF.ipynb`
 
-Work in Progress: Currently working on a single pipeline for the above ^
 
 Next steps:
 - [X] pull in December data from 2005 to 2018
    - currently 2005-2014,16
 - top 20 words for top 20 subs, Spearman correlation across 2017/2018 (i.e., "how stable is our tf-idf++ measure?")
-- figures for selected words (maybe OED new additions?)
+- figures for selected words (maybe OED new additions?) 
 - write-up
+- upload an interactive website that allows users to choose top jargons from a given year and show their origins. 
 
+Note: the website will be uploaded soon, once the .css files are finished.
 
 
