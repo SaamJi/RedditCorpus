@@ -28,6 +28,6 @@ Next steps:
 - write-up
 - upload an interactive website that allows users to choose top jargons from a given year and show their origins. 
 
-Note: the website will be uploaded soon, once the .css files are finished.
+### Note: the website will be uploaded soon, once the .css files are finished.
 
 
